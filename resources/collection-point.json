@@ -1,0 +1,13 @@
+
+{
+    "url": "http://localhost/dairy/api/controllers/RegisterCollectionPointController.php?",
+    "data" : [
+        {
+            "name" : "Dairy Daily Station",
+            "county" : "Nakuru",
+            "subcounty" : "Njoro",
+            "ward": "Njokerio",
+            "unit_price": 80.03
+        }
+    ]
+}

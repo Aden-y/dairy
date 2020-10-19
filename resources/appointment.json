@@ -1,0 +1,11 @@
+{
+    "url" : "http://localhost/dairy/api/controllers/CreateVetAppointmentController.php?",
+    "data" : [
+        {
+            "category" : "ticks",
+            "description" : "All my cows are dying", 
+            "date" : "2020-05-20",
+            "vet_id":null
+        }
+    ]
+}

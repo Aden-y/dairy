@@ -1,0 +1,21 @@
+{
+    "url": "http://localhost/dairy/api/controllers/NewAgrovetItemController.php?",
+    "data": [
+        {
+            "name" : "Thuder",
+            "category" : "Insectiside",
+            "description" : "Thunger pest controle insetiside",
+            "quantity": 256,
+            "unit_price": 800
+        
+        },
+        {
+            "name" : "Triaticks",
+            "category" : "pestiside",
+            "description" : "Ticks pestiside 250ml",
+            "quantity": 200,
+            "unit_price": 800
+        
+        }
+    ]
+}

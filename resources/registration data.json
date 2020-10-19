@@ -1,0 +1,33 @@
+{
+  "url": "http://localhost/dairy/api/controllers/RegisterController.php?",
+  "data": [
+    {
+      "firstname": "Joakim",
+      "lastname": "Adeny",
+      "email": "admin@dairy.com",
+      "phone": "0717474676",
+      "national_id": "965823",
+      "type": "Admin",
+      "county": "Kisumu",
+      "subcounty": "Nyando",
+      "ward": "Ahero",
+      "place": "Agro farmers",
+      "password": "admin@dairy.com"
+    },
+
+    {
+      "firstname": "Joakim",
+      "lastname": "Adeny",
+      "email": "employee@dairy.com",
+      "phone": "0717474676",
+      "national_id": "965823",
+      "type": "Employee",
+      "county": "Kisumu",
+      "subcounty": "Nyando",
+      "ward": "Ahero",
+      "place": "Agro farmers",
+      "password": "employee@dairy.com",
+      "station_id": 1
+    }
+  ]
+}

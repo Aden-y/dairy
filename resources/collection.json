@@ -1,0 +1,10 @@
+
+{
+    "url" : "http://localhost/dairy/api/controllers/ReceiveMilkController.php?",
+    "data" :[
+        {
+            "farmer_id" : 566,
+            "quantity" : 50
+        }
+    ]
+}

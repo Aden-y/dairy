@@ -1,0 +1,147 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+body, .content-wrapper, #wrapper, #content-wrapper, .container-fluid, #content {
+    background: linear-gradient( to right , #fffdd0,  white);
+    opacity: 1;
+    padding-bottom: 50px;
+}
+nav{
+    background:  #fffdd0;
+    border-bottom: 3px solid #aa13af;
+}
+
+.home-body {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('/dairy/front-end/public/img/bg.jpg');
+   -moz-background-size: cover;
+   -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title  {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4f4f4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color:#4f4f4c;
+    font-weight: bold;
+}
+
+.hone-title {
+    font-size: 45px;
+    color:  #fffdd0;
+    font-weight: bold;
+
+}
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.myinput {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #4f4f4c;
+}
+
+.authbtn {
+    width: 100%;
+    background: #aa13af;
+    padding: 10px;
+    color: #fffdd0;
+    font-size: bold;
+}
+
+.side-nav-link {
+    width: 100%;
+    background-color: #aa13af;
+}
+
+.custom-side-item {
+    width: 100%;
+    background-color: aqua;
+}
+
+.dashboard-card{
+    border-bottom: 3px solid #aa13af;
+}
+.tp {
+    color: #aa13af;
+}
+.bg-p {
+    background-color: #aa13af;
+    color: #fffdd0;
+}
+table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color:  #aa13af;;}
+  
+  table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color:  #aa13af;;
+    color: white;
+  }
+
+  ._card-head{
+      background-color:  #aa13af;
+      text-align: center;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      color: #fffdd0;
+  }
+
+ ._b-primary {
+     border: 2px solid #aa13af;
+     color: #fffdd0;
+ }
+
+ .verified{
+     font-size: 30px;
+ }
+
+ ._btn-primary{
+     color: white;
+     background-color: #aa13af;
+ }
+
+ .agrovet{
+     color: white;
+     background-color: green;
+     
+ }
+
+ .fa, .fas {
+     color: inherit;
+ }
+

@@ -1,0 +1,37 @@
+
+{
+    "url":"http://localhost/dairy/api/controllers/LoginController.php?",
+    "data": [
+        {
+            "email": "admin@dairy.com",
+            "password" : "admin@dairy.com"
+        
+        },
+        
+        {
+            "email": "agrovet@dairy.com",
+            "password" : "agrovet@dairy.com"
+        
+        },
+        
+        {
+            "email": "vet@dairy.com",
+            "password" : "vet@dairy.com"
+        
+        },
+        
+        {
+            "email": "farmer@dairy.com",
+            "password" : "farmer@dairy.com"
+        
+        },
+        
+        {
+            "email": "employee@dairy.com",
+            "password" : "employee@dairy.com"
+        
+        }
+    ]
+}
+
+

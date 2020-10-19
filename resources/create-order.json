@@ -1,0 +1,13 @@
+{
+    "url":"http://localhost/dairy/api/controllers/NewOrderController.php?",
+    "data":[
+        {
+           "item_id": 1,
+           "quantity": 4 
+        },
+        {
+            "item_id": 2,
+            "quantity": 4 
+         }
+    ]
+}
