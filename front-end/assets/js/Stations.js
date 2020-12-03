@@ -11,7 +11,7 @@ function displayStations(stations) {
         $('#stations').append(' <div class="text-center mt-5">No stations found</div>')
         return;
     }
-    var head = '<table><tr><th>Name</th><th>Attendant</th><th>Address</th><th>Status</th><th>Total Collections</th><th>Registered on</th></tr>';
+    var head = '<table><tr><th>Name</th><th>Attendant</th><th>Address</th><th>Total Collections</th><th>Registered on</th></tr>';
  
     var data = ''
     stations.forEach(station => {
@@ -19,7 +19,6 @@ function displayStations(stations) {
         row+= '<td>'+station.name+'</td>';
         row+= '<td>'+station.attendant+'</td>';
         row+= '<td>'+station.county+', '+station.subcounty+' '+station.ward+'</td>';
-        row+= '<td>'+station.status+'</td>';
         row+= '<td>'+station.total+'</td>';
         row+= '<td>'+station.registered_on+'</td>';
         row+='</tr>';

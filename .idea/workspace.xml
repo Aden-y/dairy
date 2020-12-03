@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba1e25de-edc5-407e-986b-9b0ed4e4eba6" name="Default Changelist" comment="" />
+    <list default="true" id="ba1e25de-edc5-407e-986b-9b0ed4e4eba6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-end/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/forgot-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/repositories/AddressRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/repositories/AddressRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/add-station.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/add-station.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/assets/js/Agrovets.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/Agrovets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/assets/js/RegisterController.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/RegisterController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/assets/js/RegisterUserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/RegisterUserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/assets/js/Stations.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/Stations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/assets/js/Vets.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/Vets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/inc/farmer-dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/inc/farmer-dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/inc/toolbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/inc/toolbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/my-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/my-store.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +39,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1enkcu3FywpdpfWwhk6h5VUMfsr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -56,10 +81,25 @@
       <updated>1594964826619</updated>
       <workItem from="1594964827914" duration="42997000" />
       <workItem from="1595055622822" duration="237000" />
+      <workItem from="1604426565572" duration="92000" />
+      <workItem from="1607009446749" duration="14195000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

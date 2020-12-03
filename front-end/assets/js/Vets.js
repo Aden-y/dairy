@@ -31,7 +31,7 @@ function loadVets() {
                             output+='<div class="col-2 verified tp">'
                         }
                         output+='<i class="fas fa-award"></i></div><div class="col-12">'
-                        output+='<button id="'+element.id+'" class="btn btn-sm m-2 _btn-primary"><i class="fas fa-phone-square"></i>'
+                        output+='<button id="'+element.id+'" class="btn btn-sm m-2 _btn-primary"><i class="fas fa-phone-square"></i> &nbsp;'+element.phone
                         output+='<span style="display:none">'+element.phone
                         output+='</span></button><a class="btn btn-sm m-2 _btn-primary" href="mailto:'+element.email+'"><i class="fas fa-envelope-square"></i></a>'
                         output+='<a class="btn btn-sm m-2 _btn-primary" href="./book-appointment.php?vet='+element.id+'">'

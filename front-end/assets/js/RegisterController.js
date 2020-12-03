@@ -49,8 +49,8 @@ function submit () {
 
 
     const id = document.getElementById('id').value.trim()
-    if(id == '') {
-        document.getElementById('idhelp').innerHTML = 'Please enter ID number'
+    if(id == '' || id.length < 6 || id.length > 8 || isNaN(id)) {
+        document.getElementById('idhelp').innerHTML = 'Please enter a valid ID number'
         document.getElementById('id').classList.add('is-invalid')
         document.getElementById('id').focus()
         return
@@ -60,9 +60,11 @@ function submit () {
 
 
 
-    const email = document.getElementById('email').value.trim()
-    if(email == '') {
-        document.getElementById('emailhelp').innerHTML = 'Please enter email'
+    const email = document.getElementById('email').value.trim();
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    if(email == '' || !re.test(email) ) {
+        document.getElementById('emailhelp').innerHTML = 'Please enter a valid email address'
         document.getElementById('email').classList.add('is-invalid')
         document.getElementById('email').focus()
         return
@@ -72,8 +74,8 @@ function submit () {
 
 
     const phone = document.getElementById('phone').value.trim()
-    if(phone == '') {
-        document.getElementById('phonehelp').innerHTML = 'Please enter phone number'
+    if(phone == '' || phone.length != 10 || isNaN(phone)) {
+        document.getElementById('phonehelp').innerHTML = 'Please enter a 10 digit phone number'
         document.getElementById('phone').classList.add('is-invalid')
         document.getElementById('phone').focus()
         return
@@ -160,9 +162,10 @@ function submit () {
         document.getElementById('specialization').classList.remove('is-invalid')
     }
 
+    const pwdRegx =  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     const password = document.getElementById('password').value.trim()
-    if(password == '') {
-        document.getElementById('passwordhelp').innerHTML = 'Please enter a password'
+    if(password == '' || pwdRegx.test(password)) {
+        document.getElementById('passwordhelp').innerHTML = 'Please enter  strong password.'
         document.getElementById('password').classList.add('is-invalid')
         document.getElementById('password').focus()
         return
@@ -178,7 +181,7 @@ function submit () {
         return
     }
     document.getElementById('conpasswordhelp').innerHTML = ''
-    document.getElementById('conpassword').classList.remove('is-invalid')
+    document.getElementById('conpassword').classList.remove('is-invalid');
 
 
 

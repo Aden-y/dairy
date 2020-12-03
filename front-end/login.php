@@ -46,6 +46,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <br>
+                        <a href="forgot-password.php" >Forgot Password</a>
                     </fieldset>
 
                     <input type="submit" id="loginbtn" name="login" value="Login" class="authbtn">

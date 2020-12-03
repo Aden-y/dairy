@@ -4,7 +4,7 @@
 <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
   <i class="fa fa-bars"></i>
 </button>
-<span class="title d-none d-lg-inline">Dairy Management</span>
+<span class="title d-none d-lg-inline">Dairy</span>
 
 <!-- Topbar Navbar -->
 <ul class="navbar-nav ml-auto">
@@ -64,15 +64,10 @@
     </a>
     <!-- Dropdown - User Information -->
     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-      <a class="dropdown-item" href="#">
+      <a class="dropdown-item" href="profile.php">
         <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
         Profile
       </a>
-      <a class="dropdown-item" href="#">
-        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-        Settings
-      </a>
-      
       <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#" id="logoutbtn">
         <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -101,6 +96,10 @@
 <li class="nav-item  mr-2">
   <a class="nav-link" href="help.php"><i class="fa fa-question"></i><span class="ml-2 d-none d-lg-inline">Help</span> </a>
 </li>
+
+    <li class="nav-item  mr-2">
+        <a class="nav-link" href="feedback.php"><i class="fa fa-question"></i><span class="ml-2 d-none d-lg-inline">Common Problems</span> </a>
+    </li>
 
   <?php }?>
 </ul>

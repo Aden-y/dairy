@@ -6,12 +6,12 @@ require_once('../database/Database.php');
  * Handles Address data access
  */
    class AddressRepository implements Repository {
-     
-    /**
-     * Creates Address from database row
-     * @param row database asscociative array
-     * @return address Address object
-     */
+
+       /**
+        * Creates Address from database row
+        * @param array $row
+        * @return address Address object
+        */
     public static  function _get(array $row): Address{
         $address = new Address();
         $address->county = $row['county'];

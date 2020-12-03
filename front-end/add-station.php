@@ -76,7 +76,7 @@
              <div class="form-group ">
                 <label>Unit price for milk collection</label>
                 <div>
-                <input id="unit_price"  type="text" name="unit_price" required class="myinput">
+                <input id="unit_price"  type="number" name="unit_price" required class="myinput">
                     <p id="unit_pricehelp"  class="text-danger"></p>
                 </div>
             </div>

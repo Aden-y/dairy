@@ -25,8 +25,9 @@ function loadMyStore() {
                     <div class="card-body"><strong>Category</strong><br><small>${element.category}</small><br>
                     <strong>Description</strong><br><small>${element.description }</small><br>
                     <div class="text-center agrovet-price">Ksh. ${element.unit_price}</div><div class="text-center">
-                    <a data-toggle="modal" onclick="addToCart(this)" name="${element.name}" price="${element.unit_price}" id="${element.id}" data-target="#addToCart" class="btn btn-sm _btn-primary m-2">
-                    <i class="fa fa-cart-plus"></i></a>
+                    <a href="my-store.php?del=${element.id}"
+                                    class="btn btn-sm _btn-primary m-2">
+                                    <i class="fas fa-trash"></i></a>
                     </div></div></div></div>
                    `;
                 });

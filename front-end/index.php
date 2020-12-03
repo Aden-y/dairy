@@ -12,49 +12,12 @@
 
   <!-- Page Wrapper -->
   <?php include_once('./inc/toolbar.php')?>
-  <div id="wrapper">
-
-    <!-- Side Nav -->
-    
-    <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-
-      <!-- Main Content -->
-      <div id="content">
-
-      <!-- Toolbar origin -->
-
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
-
-          <!-- Page Heading -->
-         
-
-        
-
-    
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <!-- Footer -->
-      
-      <!-- End of Footer -->
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-
-
+        <div style="text-align: center; color: white">
+            <br> <br> <br> <br>
+            <h1 style="color: white; font-weight: 800; ">Dairy Management System</h1>
+            <br> <br>
+            <p style="color: white; font-size: 25px">The best in providing farmers with ready market, connecting farmers with vets and the best agrovets</p>
+        </div>
   <?php include_once('./inc/scripts.php')?>
 
 </body>
