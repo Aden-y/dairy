@@ -77,7 +77,7 @@
                     <div class="form-group col-lg-6 col-md-6">
                         <label>Phone</label>
                         <div>
-                        <input id="phone"  type="text" name="phone" required class="myinput">
+                        <input id="phone"  type="number" name="phone" required class="myinput">
                             <p id="phonehelp"  class="text-danger"></p>
                         </div>
                     </div>

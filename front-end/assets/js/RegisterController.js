@@ -93,7 +93,7 @@ function submit () {
         document.getElementById('county').focus()
         return
     }
-    document.getElementById('countyhelp').innerHTML = ''
+    document.getElementById('countyhelp').innerHTML = '';
     document.getElementById('county').classList.remove('is-invalid')
 
     const subcounty = document.getElementById('subcounty').value.trim()

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba1e25de-edc5-407e-986b-9b0ed4e4eba6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/reset-password.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/agrovets.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/agrovets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/assets/js/Agrovets.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/Agrovets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/add-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/add-user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/assets/js/RegisterController.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/assets/js/RegisterController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/forgot-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/forgot-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/inc/farmer-dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/inc/farmer-dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       <workItem from="1607009446749" duration="15903000" />
       <workItem from="1608023064779" duration="1285000" />
       <workItem from="1608024432601" duration="2458000" />
-      <workItem from="1608027657013" duration="480000" />
+      <workItem from="1608027657013" duration="685000" />
     </task>
     <servers />
   </component>
