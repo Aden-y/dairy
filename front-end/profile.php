@@ -38,7 +38,7 @@
                      <br>
                     <h6>Logged in as :</h6>
                     <p class="text-primary"><?php echo $_SESSION['name']?></p>
-                    <h6>Logged in as :</h6>
+                    <h6>Logged Role :</h6>
                     <p class="text-primary"><?php echo $_SESSION['role']?></p>
 
                     <h4>Change Password</h4>

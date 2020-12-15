@@ -26,11 +26,16 @@
                             $email = $_POST['email'];
                             $query =  "select * from users where email = '".$email."'";
                             $result = $mysqli -> query($query);
+                            if ($row = $result->fetch_assoc()) {
+                                //print_r($row);
+                                echo '<p>Code sent to your email</p>
+                                        <a href="reset-password.php">Go to reset page </a>';
+                                exit();
+                            }
 
                          }
                     ?>
-                    <form  onsubmit="return false"
-                           method="post">
+                    <form  method="post"  action="forgot-password.php">
 
                         <fieldset>
                             <legend>Email Address</legend>
@@ -45,23 +50,7 @@
 
 
                         </fieldset>
-
-                        <fieldset>
-                            <legend>Password</legend>
-                            <div class="row">
-                                <div class="form-group col-12">
-                                    <div>
-                                        <input type="password" id="password" name="password" required class="myinput">
-                                        <p id="passwordhelp" class="text-danger"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br>
-                            <a href="forgot-password.php" >Forgot Password</a>
-                        </fieldset>
-
-                        <input type="submit" id="loginbtn" name="login" value="Login" class="authbtn">
+                        <input type="submit" id="loginbtn" name="request-code" value="Request Code" class="authbtn">
                     </form>
                 </div>
 

@@ -31,7 +31,18 @@
                 </div>
 
                   <div>
-                      <div id="agrovets"  class="row">
+                      <div  class="row">
+                          <table>
+                              <tr>
+                                  <th>Name</th>
+                                  <th>Description</th>
+                                  <th>Price</th>
+                                  <th>Add To Cart</th>
+                              </tr>
+                              <tbody id="agrovets" >
+
+                              </tbody>
+                          </table>
 
                      </div>
               </div>
@@ -56,6 +67,7 @@
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
+
 
 
       <div class="modal fade" id="addToCart" tabindex="-1" role="dialog" aria-labelledby="addToCartLabel" aria-hidden="true">

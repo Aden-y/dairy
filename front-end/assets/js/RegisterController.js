@@ -162,9 +162,9 @@ function submit () {
         document.getElementById('specialization').classList.remove('is-invalid')
     }
 
-    const pwdRegx =  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+    const pwdRegx =   /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
     const password = document.getElementById('password').value.trim()
-    if(password == '' || pwdRegx.test(password)) {
+    if(password == '' || !pwdRegx.test(password)) {
         document.getElementById('passwordhelp').innerHTML = 'Please enter  strong password.'
         document.getElementById('password').classList.add('is-invalid')
         document.getElementById('password').focus()

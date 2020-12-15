@@ -20,16 +20,15 @@ function loadMyStore() {
                 const items = response.items
                 var output = ``;
                 items.forEach(element => {
-                    output += `<div class="col-lg-3 col-md-4"><div class="card _b-primary agrovet"><div class="_card-head"><h6> ${element.name} </h6>
-                    </div><img src="./public/img/bg.jpg" class="card-img-top" alt="...">
-                    <div class="card-body"><strong>Category</strong><br><small>${element.category}</small><br>
-                    <strong>Description</strong><br><small>${element.description }</small><br>
-                    <div class="text-center agrovet-price">Ksh. ${element.unit_price}</div><div class="text-center">
-                    <a href="my-store.php?del=${element.id}"
-                                    class="btn btn-sm _btn-primary m-2">
-                                    <i class="fas fa-trash"></i></a>
-                    </div></div></div></div>
-                   `;
+                    console.log(element)
+                    output+=`
+                    <tr>
+                        <td>${element.name}</td>
+                       <td>${element.description}</td>
+                       <td>Ksh. ${element.unit_price}</td>
+                       <td><button id="${element.id}" data-toggle="modal" data-target="#addToCart"  name="${element.name}" price="${element.unit_price}" onclick="addToCart(this)">Add To Cart</button></td>
+                    </tr>
+                    `;
                 });
 
                 $('#agrovets').append(output);
@@ -37,7 +36,7 @@ function loadMyStore() {
                 console.log(response)
             }
         }
-    } 
+    }
 }
 
 function loadItems() {
@@ -51,16 +50,15 @@ function loadItems() {
             if(http.status == 200) {
                 const items = response.items
                 items.forEach(element => {
-                     output += `<div class="m-2 col-lg-4 col-md-6"><div class="card _b-primary agrovet">
-                        <div class="_card-head"><h6>${element.name}</h6>
-                    </div><img src="./public/img/bg.jpg" class="card-img-top" alt="...">
-                    <div class="card-body"><strong>Category</strong><br><small>${element.category}</small><br>
-                    <strong>Description</strong><br><small>${element.description}</small><br><strong>Seller</strong><br>
-                    <small>${element.store.name}<br>(<i class="fas fa-map-marker-alt"></i>&nbsp;${element.store.address.county}, 
-                    ${element.store.address.subcounty}, ${element.store.address.ward} - ${element.store.address.place})</small><br>
-                    <div class="text-center agrovet-price">Ksh. ${element.unit_price}</div><div class="text-center"><button class="btn btn-sm _btn-primary m-2">
-                    <i class="fas fa-phone-square"></i><span style="display:none">${element.store.owner.phone}</span></button><button class="btn btn-sm _btn-primary m-2">
-                    <i class="fas fa-edit"></i></button></div></div></div></div>`
+                    console.log(element)
+                    output+=`
+                    <tr>
+                        <td>${element.name}</td>
+                       <td>${element.description}</td>
+                       <td>Ksh .${element.unit_price}</td>
+                       <td><button id="${element.id}"  name="${element.name}" price="${element.unit_price}" onclick="addToCart(this)">Add To Cart</button></td>
+                    </tr>
+                    `;
                 });
                 $('#agrovets').html(output);
             }else{
@@ -89,7 +87,7 @@ function _addToCart() {
         price: parseFloat($('#_p').val()),
         id: parseInt($('#_id').val()),
         quantity: parseInt($('#_q').val())
-    }
+    };
     document.getElementById('_dismiss').click();
     cart.push(data);
 }
@@ -163,3 +161,4 @@ function submitOrder() {
         }
     });
 }
+//
